@@ -1,0 +1,7 @@
+:root { --bg: #f6f7f4; --ink: #1c201d; --muted: #5d655f; --accent: #1f6b58; }
+@media (prefers-color-scheme: dark) { :root { --bg: #141715; --ink: #e7ebe6; --muted: #9ba49d; --accent: #5cc2a5; } }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 system-ui, "Segoe UI", sans-serif; }
+main { max-width: 680px; margin: 0 auto; padding: 48px 20px 64px; }
+h1 { font-size: 30px; line-height: 1.2; margin: 0 0 6px; } h2 { font-size: 20px; margin: 32px 0 8px; }
+p, li { color: var(--ink); } .sotto { color: var(--muted); margin: 0 0 28px; }
+a { color: var(--accent); } hr { border: 0; border-top: 1px solid var(--muted); opacity: .3; margin: 36px 0; }
